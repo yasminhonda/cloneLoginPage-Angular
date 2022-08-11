@@ -1,0 +1,73 @@
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5.516rem;
+}
+
+form h2 {
+    font-size: 2.6rem;
+    font-weight: 600;
+    border-left: 0.7rem solid var(--green-color);
+    padding-left: 1.1rem;
+    margin-bottom: 2.1rem;
+}
+
+form input {
+    margin-top: 0.9rem;
+    width: 38rem;
+    height: 5rem;
+    font-size: 1.4rem;
+    color: var(--dark--gray);
+    background: var(--light-gray);
+    border: none;
+    padding-left: 4rem;
+    border-radius: 0.2rem;
+}
+
+form input:focus {
+    background-color: pink;
+    outline: var(--pink-gradient);
+}
+
+form .nameInput {
+    background-image: url('/assets/accountIcon.png');
+    background-repeat: no-repeat;
+    background-position: center left 1rem;
+}
+
+form .emailInput {
+    background-image: url('/assets/emailIcon.png');
+    background-repeat: no-repeat;
+    background-position: center left 1rem;
+}
+
+form .passwordInput {
+    background-image: url('/assets/lockIcon.png');
+    background-repeat: no-repeat;
+    background-position: center left 1rem;
+}
+
+form p:first-of-type {
+    font-size: 1.4rem;
+    text-align: right;
+    margin-top: 0.7rem;
+    font-weight: 400;
+}
+
+form button {
+    width: 38rem;
+    height: 5rem;
+    border: none;
+    border-radius: 0.4rem;
+    background: var(--pink-gradient);
+    color: var(--white-color);
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 2.7rem 0 1.7rem 0;
+}
+
+form p:last-of-type {
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: 500;
+}

@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --white-color: #FAFAFA;
+    --green-color: #35BDAC;
+    --dark--gray: #969696;
+    --light-gray: #EAEAEA;
+    --pink-gradient: linear-gradient(178.59deg, #FF5F5F -14.51%, #F062C0 102.86%, #F23131 102.86%);
+}
+
+* { 
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body, html {
+    height: 100%;
+    font-size: 62.5%;
+}
+
+input, button {
+    cursor: pointer;
+}
